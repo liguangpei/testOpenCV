@@ -45,7 +45,6 @@ cmaps = [('Perceptually Uniform Sequential', [
 
 clf = KNeighborsClassifier()
 clf.fit(x,y)
-
 #下面的代码用于画图
 x_min, x_max = x[:,0].min()-1, x[:,0].max()+1
 y_min, y_max = x[:,1].min()-1, x[:, 1].max()+1
